@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Neue', cursive;
+}
+
+.fondo{
+    height: 200px;
+    width: 1500px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+header{
+    height: 350px;
+    margin-top: 100px;
+}
+
+header figure{
+    height: 350px;
+}
+
+header nav{
+    position: absolute;
+    top: 135px;
+    right: 235px;
+}
+
+header a{
+    font-size: 140%;
+    color: white;
+    background-color: rgb(81, 144, 238);
+    outline: solid 2px black;
+    margin-left: 10px;
+    padding: 5px 20px 5px 20px;
+    box-shadow: 5px 5px rgb(95, 92, 92);
+}
+
+#active{
+    font-size: 140%;
+    color: white;
+    background-color: green;
+    outline: solid 2px black;
+    margin-left: 10px;
+    padding: 5px 20px 5px 20px;  
+}
+
+header h1{
+    position: absolute;
+    left: 150px;
+    top: 80px;
+    font-size: 400%;
+}
+
+.title-about{
+    position: absolute;
+    top: 360px;
+    left: 850px;
+    font-size: 230%;
+}
+
+.title-home{
+    position: absolute;
+    top: 360px;
+    left: 750px;
+    font-size: 230%;
+}
+
+.logo{
+    height: 120px;
+    width: 120px;
+}
+
+main figure{
+    float: left;
+    margin-left: 160px;
+    margin-right: 100px;
+}
+
+main p{
+    margin-left: 400px;
+    position: absolute;
+    text-indent: 15px;
+}
+
+main h3{
+    font-style: italic;
+    margin-left: 378px;
+}
+
+.home-article{
+        font-size: 130%;
+        margin-bottom: 40px;
+        margin-right: 500px;
+        position: relative;
+}
+
+.about-article{
+    font-size: 130%;
+    margin-bottom: 90px;
+    margin-right: 500px;
+    position: relative;  
+}
+
+#link{
+    color: blue;
+    text-decoration: underline black 1px;
+}
